@@ -15,9 +15,9 @@ unlabelset = data['unlabelset']
 data = loadmat('voc_testset.mat')
 testset = data['testset']
 
-repeatnum = 10  # Selection iterations
+repeatnum = 100  # Selection iterations
+allbeta = np.arange(0, 1.1, 0.1)
 
 # Method
 print('Adaptive Active Learning begins...')
-allbeta = np.arange(0, 1.1, 0.1)
 adaptiveresult, _ = activecombsample(labelset, unlabelset, testset, allbeta, repeatnum)
