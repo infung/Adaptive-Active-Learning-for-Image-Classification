@@ -4,8 +4,8 @@
 
 * This is a group project of the HKU course COMP7404 Machine Learning.
 * Group members:
-    - Yan Feng
-    - Ying yuanyuan
+    - Feng Yan
+    - Ying Yuanyuan
 * This project is the implementation of the paper **"Xin Li, Y. Guo, Adaptive Active Learning for Image Classification, CVPR 2013"** .
 
 ### Prerequisite ###
