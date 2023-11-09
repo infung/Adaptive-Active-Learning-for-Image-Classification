@@ -55,12 +55,12 @@ plt.show()
 
 approach['method'] = 1
 accuracy_beta = []
-beta = [0.25,0.5,0.75,1]
-for b in beta:
-    beta = b
-    adaptiveresult, _ = otherApproaches(labelset, unlabelset, testset, beta, repeatnum, approach)
-    labell = 'β = ' + str(beta)
+betaList = [0.25, 0.5, 0.75, 1]
+for b in betaList:
+    adaptiveresult, _ = otherApproaches(labelset, unlabelset, testset, b, repeatnum, approach)
+    labell = 'β = ' + str(b)
     plt.plot(iteration, adaptiveresult, label=labell)
+    print(labell)
 
 plt.plot(iteration, accuracy_proposed, label='Proposed Approach')
 plt.xlabel('Number of Labeled Instances')
