@@ -19,7 +19,7 @@ testset = data['testset']
 # unlabelset = data['unlabelset']
 # testset = data['testset']
 
-repeatnum = 100
+repeatnum = 20
 
 #           1 - single beta with proposed approach
 #           2 - most uncertainty
@@ -46,11 +46,12 @@ iteration = np.arange(0, repeatnum+1, 1)
 plt.plot(iteration, accuracy_proposed, label='Proposed Approach')
 plt.plot(iteration, accuracy_uncertainty, label='Most Uncertainty')
 plt.plot(iteration, accuracy_fixedComb, label='Fixed Combination')
-plt.xlabel('num')
+plt.xlabel('Number of Labeled Instances')
 plt.ylabel('Classification Accuracy')
 plt.title('Logistic Regression Classification Accuracy')
 plt.legend()
 plt.show()
+
 
 approach['method'] = 1
 accuracy_beta = []
@@ -61,7 +62,8 @@ for b in beta:
     labell = 'β = ' + str(beta)
     plt.plot(iteration, adaptiveresult, label=labell)
 
-plt.xlabel('num')
+plt.plot(iteration, accuracy_proposed, label='Proposed Approach')
+plt.xlabel('Number of Labeled Instances')
 plt.ylabel('Classification Accuracy')
 plt.title('Logistic Regression Classification Accuracy')
 plt.legend()
