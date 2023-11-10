@@ -4,9 +4,6 @@ from Adaptive_learning.activeLearning import activecombsample
 from Adaptive_learning.otherApproaches import otherApproaches
 
 # Load the data from MATLAB files
-data = loadmat('voc07_densesift.mat')
-voc07_densesift = data['feats']
-
 data = loadmat('voc_labelset.mat')
 labelset = data['labelset']
 
