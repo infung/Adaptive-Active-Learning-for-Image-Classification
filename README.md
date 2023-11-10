@@ -15,7 +15,7 @@ pip install modAL-python
 ```
 
 ### How to run ###
-* If you want to test the accuracy of the proposed approach with the provided dataset, just simply execute the "start.py" file.
+* If you want to test the accuracy of the proposed approach with the provided dataset (very small subset, only 29 training data), just simply execute the "start.py" file.
 
 * If you want to try out other approaches like 'Most Uncertainty', 'Fixed Combination' or the proposed approach using a fixed beta, just simply execute the "experiment.py" file with specified parameters.
 
