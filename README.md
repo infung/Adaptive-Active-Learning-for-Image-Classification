@@ -19,6 +19,7 @@ pip install modAL-python
 
 * If you want to try out other approaches like 'Most Uncertainty', 'Fixed Combination' or the proposed approach using a fixed beta, just simply execute the "experiment.py" file with specified parameters.
 
-* If you want to try out the 'Caltech101' dataset:
-    - Download the Caltech101 from https://data.caltech.edu/records/mzrjq-6wc02 
-    - Run the jupyter file step by step, and finally a caltech101.mat file will be produced which contains the labeld set, unlabeled set and test set with label as the last column.
+* **To dear TA**:
+    - The 'voc07' datasets are just small subset from VOC2007 dataset, even smaller than what we used to conduct the accuracy graph in the paper. It's a good dataset for you to test out our code.
+    - If you want to try out the 'Caltech101' dataset:
+         * Download the Caltech101 from https://data.caltech.edu/records/mzrjq-6wc02 
