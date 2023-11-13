@@ -20,7 +20,7 @@ pip install modAL-python
 * If you want to try out other approaches like 'Most Uncertainty', 'Fixed Combination' or the proposed approach using a fixed beta, just simply execute the "experiment.py" file with specified parameters.
 
 
-###To dear TA###:
+### To dear TA ###:
 * The 'voc07' dataset is just a small subset from VOC2007 dataset, even smaller than what we used to conduct the accuracy graph in the project. It's a good dataset for you to test out our code.
      - The accuracy of this small subset is not high enough since we only prepare 29 training data for testing. 
 * If you want to try out the 'Caltech101' dataset:
