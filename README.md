@@ -21,7 +21,8 @@ pip install modAL-python
 
 
 ### To dear TA ###:
-* The 'voc07' dataset is just a small subset from VOC2007 dataset. You can use this dataset to test out our code.
-     - The accuracy of this small subset is not high enough since we only prepare 29 training data for testing. 
+* The 'voc07' dataset is just a small subset from VOC2007 dataset and you can use this dataset to test out our code.
+     - The accuracy of this small subset is not high enough since we only prepare 29 training data for testing purpose. 
 * If you want to try out the 'Caltech101' dataset:
-    - Download the Caltech101 from https://data.caltech.edu/records/mzrjq-6wc02 
+    - Download the Caltech101 from https://data.caltech.edu/records/mzrjq-6wc02
+    - Then resize and use PCA to reduce dimension
